@@ -56,25 +56,25 @@
 
 // var a = 4;
 // if(++a===5){
-    // alert("Given condition for variable a is true")
+//     alert("Given condition for variable a is true")
 // }
 
 // var b = 82;
 // if(b++ === 83){
-//     alert("Given condition for variable b is true");
+//     alert("Given condition for variable b is not true");
 // }
 
 // var c = 12;
 // if(c++===13){
-//     alert("Condition 1 is true");
+//     alert("Condition 1 is not true");
 // }
 
 // if(c===13){
 //     alert("Condition 2 is true");
 // }
 
-// if(++c<14){
-//     alert("Condition 3 is true");
+// if(++c < 14){
+//     alert("Condition 3 is not true");
 // }
 
 // if(c===14){
@@ -197,34 +197,68 @@
 //     alert("Please Enter Temperature upto 10deg");
 // }
 
-var firstNum = +prompt("Enter first Number");
-var operator = prompt("Enter Operator");
-var secondNum = +prompt("Enter Second Number");
+// var firstNum = +prompt("Enter first Number");
+// var operator = prompt("Enter Operator");
+// var secondNum = +prompt("Enter Second Number");
 
-if(operator === "+" ){
-    alert( firstNum+secondNum);
+// if(operator === "+" ){
+//     alert( firstNum+secondNum);
 
-}
-else if(operator === "-" ){
-    alert(firstNum-secondNum);
+// }
+// else if(operator === "-" ){
+//     alert(firstNum-secondNum);
 
-}
-else if(operator === "*" ){
-    alert(firstNum*secondNum);
+// }
+// else if(operator === "*" ){
+//     alert(firstNum*secondNum);
 
-}
-else if(operator === "/" ){
-    alert(firstNum/secondNum);
+// }
+// else if(operator === "/" ){
+//     alert(firstNum/secondNum);
 
-}
-else if(operator === "%" ){
-    alert(firstNum/secondNum);
+// }
+// else if(operator === "%" ){
+//     alert(firstNum/secondNum);
 
-}
-else{
-    alert("Enter operator")
-}
+// }
+// else{
+//     alert("Enter operator")
+// }
+
+// -----------------------------Chapter 12-13-------------------------------------
+
+// Question:02-------------------Check integer--------------------------------
+
+// var num1 = +prompt("Enter first integer");
+// var num2 = +prompt("Enter second integer");
+
+// if(num1>num2){
+//     alert("Integer 1 is greaterthen Integer 2")
+// }
+// else if(num1==num2){
+//     alert("Integer 1 and Integer 2,Both are equal. ")
+// }
+// else{
+//     alert("Integer 2 is greater then Integer 1")
+// }
+
+// Question:03)---------------------------Positive or Negative Number------------------
+
+// var integer = +prompt("Enter any Integer");
+
+// if(integer===0){
+//     console.log("Given number is zero")
+// }
+// if(integer==-+integer){
+//     console.log("Given number is zero")
+// }
 
 
+// var vowel = "a,e,i,o,u";
+// var vowelInput = prompt("Enter one alphabat");
+
+// if(vowelInput==vowel){
+//     console.log("alphabat is vowel");
+// }
 
 
