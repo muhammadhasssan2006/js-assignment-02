@@ -246,19 +246,85 @@
 
 // var integer = +prompt("Enter any Integer");
 
-// if(integer===0){
-//     console.log("Given number is zero")
+// if(integer<0){
+//     alert("Given number is Negative");
 // }
-// if(integer==-+integer){
-//     console.log("Given number is zero")
+// else{
+//     alert("The given number is positive.");
 // }
 
+// if(integer==0){
+//     alert("Given number is zero");
+// }
+// else{
+//     alert("The given number is greater then Zeero.");
+// }
 
-// var vowel = "a,e,i,o,u";
+// Question:04-----------------------vowel & odd ----------------------------------------
 // var vowelInput = prompt("Enter one alphabat");
+// if(vowelInput=="a"||vowelInput=="e"||vowelInput=="i"||vowelInput=="o"||vowelInput=="u"){
+//     alert("The given alphabet is vowel.");
+// }
+// else{
+//     alert("The given alphabet  odd.");
+// }
 
-// if(vowelInput==vowel){
-//     console.log("alphabat is vowel");
+// Question:05-----------------------Password------------------------------------
+
+// var passWord = "hassan123";
+// enterPassword = prompt("Enter your password: (hassan123)");
+
+// if(enterPassword===""){
+//     enterPassword = prompt("Enter your password: (hassan123)");
+
+
+// }
+// if(enterPassword===passWord){
+//     alert("Correct password!");
+    
+// }
+// else{
+//     alert("Incorrect password");
+// }
+
+// Question:06----------------------time condition----------------------------------------
+
+// var hour = prompt("Enter Time ")
+
+// if(hour<18){
+//     alert(" Good day");
+    
+// }
+
+// else{
+//     alert(" Good evening");
+// }
+
+// Question:07----------------------- Day Time ----------------------------------
+
+// var time = prompt("Enter time:");
+
+// if(time >= "00:00" && time < "12:00" ){
+//     alert("Good Morning!")
+
+// }
+// else if(time >="12:00" && time < "17:00"){
+//     alert("Good afternoon!")
+
+
+// }
+// else if(time >="17:00" && time < "21:00"){
+//     alert("Good evening!")
+
+
+// }
+// else if(time >="21:00" && time < "23:59"){
+//     alert("Good night!")
+
+
+// }
+// else{
+//     alert("Enter time")
 // }
 
 
